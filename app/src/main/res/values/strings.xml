@@ -1,3 +1,68 @@
 <resources>
     <string name="app_name">fitspo</string>
+
+    <!--- ONBOARDING INFO STRINGS -->
+    <string name="info_desc">Enter information about yourself!</string>
+    <string name="onboarding_q1">I am a </string>
+    <string name="onboarding_q1a1">Man</string>
+    <string name="onboarding_q1a2">Woman</string>
+
+    <string name="onboarding_q2">My age is </string>
+    <string name="onboarding_q2a1">years</string>
+
+    <string name="onboarding_q3">My height is </string>
+    <string name="onboarding_q3a1">ft</string>
+    <string name="onboarding_q3a2">in</string>
+
+    <string name="onboarding_q4">My current weight</string>
+    <string name="onboarding_q4a1">lbs</string>
+    <string name="onboarding_q5">My goal weight</string>
+
+    <!--- ONBOARDING ACTIVITY LEVELS STRINGS -->
+    <string name="activity_desc">Describe your daily activity levels.</string>
+    <string name="activity_q1">Sedentary</string>
+    <string name="activity_d1">Spends most of the day sitting (Desk job, bank teller)</string>
+
+    <string name="activity_q2">Light Activity</string>
+    <string name="activity_d2">Spends a good part of the day on your feet (Teacher, Salesperson)</string>
+
+    <string name="activity_q3">Active</string>
+    <string name="activity_d3">Spends a good part of the day doing physical activity (Mailperson, Waiter)</string>
+
+    <string name="activity_q4">Very Active</string>
+    <string name="activity_d4">Spends a good part of the day doing heavy physical activity (Construction Worker, Mover)</string>
+
+
+    <!--- ONBOARDING EXERCISE STRINGS -->
+    <string name="exercise_desc">List your exercise output. If you are planning on exercising, list your anticipated activity level.</string>
+    <string name="exercise_q1">Days per week</string>
+    <string name="exercise_q1a1">days</string>
+
+    <string name="exercise_q2">Minutes per day</string>
+    <string name="exercise_q2a1">minutes</string>
+    <string name="exercise_q2a2">Include cardio!</string>
+
+    <!--- ONBOARDING GOALS STRINGS -->
+    <string name="goals_desc">Set your goals for fat loss. Woohoo!</string>
+    <string name="goals_q1">Weight Loss</string>
+    <string name="goals_q1a1">Suggested (-15%)</string>
+    <string name="goals_q1a2">Aggressive (-20%)</string>
+    <string name="goals_q1a3">Reckless (-25%)</string>
+
+    <string name="goals_q2">Maintenance</string>
+    <string name="goals_q2a1">TDEE suggested</string>
+
+    <string name="goals_q3">Bulking</string>
+    <string name="goals_q3a1">Cautious (+5%)</string>
+    <string name="goals_q3a2">Textbook (+10%)</string>
+    <string name="goals_q3a3">Aggressive (+15%)</string>
+
+    <string name="calorie_num_placeholder">1120</string>
+    <string name="calories_label">calories</string>
+
+    <!--- BUTTON STRINGS -->
+    <string name="next_button">Next</string>
+    <string name="previous_button">Previous</string>
+    <string name="results_button">Get Results</string>
+
 </resources>
