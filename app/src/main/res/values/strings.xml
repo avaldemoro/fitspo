@@ -80,6 +80,13 @@
     <string name="macro_subtitle2">Carbs</string>
     <string name="macro_subtitle3">Fats</string>
 
+    <!-- ADD MEAL STRINGS -->
+    <string name="meal_title">Enter your meal</string>
+    <string name="this_meal_subtitle">This meal</string>
+    <string name="add_question">Keep adding?</string>
+    <string name="finish_entry">Finish Entry</string>
+    <string name="search_meal_placeholder">apples</string>
+
     <!--- BUTTON STRINGS -->
     <string name="next_button">Next</string>
     <string name="previous_button">Previous</string>
