@@ -60,6 +60,26 @@
     <string name="calorie_num_placeholder">1120</string>
     <string name="calories_label">calories</string>
 
+    <!-- ONBOARDING RESULTS STRINGS -->
+    <string name="results_desc">Based on your entries, calculations, and fitness goals, here is what your daily intake should be: </string>
+    <string name="results_a1">Protein</string>
+    <string name="results_a2">Carbohydrates</string>
+    <string name="results_a3">Fats</string>
+    <string name="results_a4">Calories</string>
+    <string name="results_note">The results are calculated using the Mifflin, M. D., St Jeor formula.</string>
+
+    <string name="grams_num_placeholder">130</string>
+    <string name="grams_label">grams</string>
+
+    <!-- MAIN ACTIVITY STRINGS -->
+    <string name="main_activity_title">Daily Goals</string>
+    <string name="frac_placeholder">out of 130</string>
+    <string name="macro_subtitle">Macronutrients</string>
+    <string name="meal_subtitle">Meals Today</string>
+    <string name="macro_subtitle1">Protein</string>
+    <string name="macro_subtitle2">Carbs</string>
+    <string name="macro_subtitle3">Fats</string>
+
     <!--- BUTTON STRINGS -->
     <string name="next_button">Next</string>
     <string name="previous_button">Previous</string>

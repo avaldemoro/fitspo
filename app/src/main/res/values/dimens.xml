@@ -4,6 +4,11 @@
     <dimen name="large_title_size">38sp</dimen>
     <dimen name="small_text">14sp</dimen>
     <dimen name="medium_text">18sp</dimen>
+    <dimen name="large_text">24sp</dimen>
     <dimen name="xl_text">50sp</dimen>
+
+    <dimen name="app_bar_height">56dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
 
 </resources>
