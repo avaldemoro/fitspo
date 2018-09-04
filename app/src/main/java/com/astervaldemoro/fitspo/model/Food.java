@@ -5,6 +5,7 @@ import android.os.Parcelable;
 
 public class Food implements Parcelable {
     private String foodName;
+    private int foodID;
     private double proteins;
     private double fats;
     private double carbs;
@@ -15,6 +16,7 @@ public class Food implements Parcelable {
 
     protected Food(Parcel in) {
         foodName = in.readString ();
+        foodID = in.readInt ();
         proteins = in.readDouble ();
         fats = in.readDouble ();
         carbs = in.readDouble ();
@@ -42,6 +44,7 @@ public class Food implements Parcelable {
 
     /*** SETTER METHODS ***/
     public void setFoodName(String foodName) { this.foodName = foodName; }
+    public void setFoodID(int foodID) { this.foodID = foodID; }
     public void setProteins(double proteins) { this.proteins = proteins; }
     public void setFats(double fats) { this.fats = fats; }
     public void setCarbs(double carbs) { this.carbs = carbs; }
@@ -50,6 +53,7 @@ public class Food implements Parcelable {
 
     /*** GETTER METHODS ***/
     public String getFoodName() { return foodName; }
+    public int getFoodID() { return foodID; }
     public double getProteins() { return proteins; }
     public double getFats() { return fats; }
     public double getCarbs() { return carbs; }
@@ -59,6 +63,7 @@ public class Food implements Parcelable {
     @Override
     public void writeToParcel(Parcel dest, int flags) {
         dest.writeString (foodName);
+        dest.writeInt (foodID);
         dest.writeDouble (proteins);
         dest.writeDouble (fats);
         dest.writeDouble (carbs);

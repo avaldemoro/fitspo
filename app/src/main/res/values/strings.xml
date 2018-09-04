@@ -82,6 +82,7 @@
 
     <!-- ADD MEAL STRINGS -->
     <string name="meal_title">Enter your meal</string>
+    <string name="meal_placeholder">meal name</string>
     <string name="this_meal_subtitle">This meal</string>
     <string name="add_question">Keep adding?</string>
     <string name="finish_entry">Finish Entry</string>
