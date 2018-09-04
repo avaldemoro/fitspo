@@ -25,5 +25,12 @@ public class Constant {
 
     /*** INTENT KEYS***/
     public final static String ADD_MEALS = "ADD_MEALS";
+    public final static String USER_INFO = "USER_INFO";
+
+    /*** ERROR MESSAGES ***/
+    public final static String NO_INTERNET_TEXT = "Oh no! No internet connection.";
+
+    /*** COMMANDS ***/
+    public final static String INTERNET_CHECK_COMMAND = "/system/bin/ping -c 1 8.8.8.8";
 
 }

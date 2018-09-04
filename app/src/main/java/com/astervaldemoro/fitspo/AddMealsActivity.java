@@ -28,11 +28,7 @@ public class AddMealsActivity extends AppCompatActivity {
 
         this.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
 
-        //mealNameET.clearFocus();
-        mealNameET.setFocusableInTouchMode(false);
-        mealNameET.setFocusable(false);
-        mealNameET.setFocusableInTouchMode(true);
-        mealNameET.setFocusable(true);
+
 
     }
 }

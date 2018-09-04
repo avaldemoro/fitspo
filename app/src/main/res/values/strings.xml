@@ -89,8 +89,8 @@
     <string name="search_meal_placeholder">apples</string>
 
     <!--- BUTTON STRINGS -->
-    <string name="next_button">Next</string>
-    <string name="previous_button">Previous</string>
+    <string name="next_button">next</string>
+    <string name="previous_button">previous</string>
     <string name="results_button">Get Results</string>
 
 </resources>
