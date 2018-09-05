@@ -56,9 +56,9 @@
             android:textColor="@color/colorDarkGray"
             android:textSize="@dimen/medium_text"
             android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="@+id/radioGroup"
+            app:layout_constraintBottom_toBottomOf="@+id/gender_radiogroup"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/radioGroup" />
+            app:layout_constraintTop_toTopOf="@+id/gender_radiogroup" />
 
         <TextView
             android:id="@+id/textView4"
@@ -129,7 +129,7 @@
             app:layout_constraintTop_toTopOf="@+id/goal_weight_textbox" />
 
         <RadioGroup
-            android:id="@+id/radioGroup"
+            android:id="@+id/gender_radiogroup"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginEnd="32dp"
@@ -217,7 +217,7 @@
             android:textColor="@android:color/black"
             android:textSize="@dimen/medium_text"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+            app:layout_constraintTop_toBottomOf="@+id/gender_radiogroup" />
 
         <EditText
             android:id="@+id/height_ft_textbox"
@@ -233,7 +233,7 @@
             android:textColor="@android:color/black"
             android:textSize="@dimen/medium_text"
             app:layout_constraintEnd_toStartOf="@+id/height_in_textbox"
-            app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+            app:layout_constraintTop_toBottomOf="@+id/gender_radiogroup" />
 
         <EditText
             android:id="@+id/year_textbox"

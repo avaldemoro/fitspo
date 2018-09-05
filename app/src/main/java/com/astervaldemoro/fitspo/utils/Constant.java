@@ -33,4 +33,13 @@ public class Constant {
     /*** COMMANDS ***/
     public final static String INTERNET_CHECK_COMMAND = "/system/bin/ping -c 1 8.8.8.8";
 
+    /*** OTHER KEYS ***/
+    public final static String MALE = "USER_IS_MALE";
+    public final static String FEMALE = "USER_IS_FEMALE";
+
+    public final static String SEDENTARY = "USER_SEDENTARY";
+    public final static String LIGHT_ACTIVITY = "USER_LIGHT_ACTIVITY";
+    public final static String ACTIVE = "USER_ACTIVE";
+    public final static String VERY_ACTIVE = "USER_VERY_ACTIVE";
+
 }
