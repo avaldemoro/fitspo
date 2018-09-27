@@ -11,7 +11,7 @@ import butterknife.ButterKnife;
 
 public class AddMealsActivity extends AppCompatActivity {
     @BindView (R.id.my_toolbar) android.support.v7.widget.Toolbar mainTB;
-    @BindView (R.id.meal_name_textbox) EditText mealNameET;
+    //@BindView (R.id.meal_name_textbox) EditText mealNameET;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
